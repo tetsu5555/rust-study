@@ -1,5 +1,5 @@
 ```
-// wasm-packをインストールした
+// wasm-packをインストールした(コンテナ側で実行した)
 cargo install wasm-pack
 // hello-wasmを生成
 cargo new --lib hello-wasm
