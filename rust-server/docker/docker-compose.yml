@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+  rust-actix-web:
+    build: ./rust
+    tty: true
+    volumes:
+      - ../:/src
+    ports:
+      - 8777:80
